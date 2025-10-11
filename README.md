@@ -31,6 +31,17 @@
   -  This design is implementing a 3 stage pipeline to calculate AVG of the 3 input stream values
   -  The circuit is a sequential circuit hence the timing delays were taken into account
 
-**Notes for 3 Stage Sequential Circuit for Avg**
+**Notes for 8-bit Synchronous Shift Register**
   -  This design is also based on behavioral design with the additional use of structured procedure statements such as "initial" and "always".
   -  It works on 4 modes which are selected depending on the input value
+
+**Notes for Non-Overlapping State Machine**
+  -  This machine will keep on checking an input stream and will signal the output to be "1" only when "1101" is detected as an input stream
+  -  The state table as well as the state diagram is attached in the folder
+
+**Notes for Cola Next Vending Machine**
+  -  Machine dispenses a can of cola for Rs 15/- by opening the dispenser slot through 1-bit “OPEN” output signal.
+  -  You can provide coins of either Rs. 10/- or Rs. 5/-, hence the input “COIN” can either be 5 or 10.
+  -  The Machine returns back the change and it is demonstrated through a 1-bit “CHANGE” output signal.
+  -  The Machine resets after a can has been dispensed.
+
