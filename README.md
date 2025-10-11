@@ -3,12 +3,17 @@
 - A portfolio of SystemVerilog projects demonstrating a range of modeling techniques and hardware design practices.
 - These projects are done on **Questa Sim-64 10.7c**
 
-**- Notes for 8-Bit RCA Project**
+**Notes for 8-Bit RCA Project**
   -  This design is based on hierarchical design
   -  The half adder and full adder are seperate modules within the same project and can be called as many times as needed
   -  Lastly, gate-level structural design concepts were used
 
 
-**- Notes for BCD to 7 Segment Decoder**
+**Notes for BCD to 7 Segment Decoder**
   -  This design is based on behavioral design, this doesnt it mean that it cannot be hierarchical.
   -  The difference from the 8-Bit RCA project is the difference of design as that was gate level modelling and this is behavioral
+
+**32-Bit ALU**
+  -  This design is also based on behavioral design with the additional use of structured procedure statements such as "initial" and "always".
+  -  In addition to this, the procedural assignments were understood such as blocking and non-blocking assignments ( used in another project ).
+  -  The opcode truth table is present in the folder to understand how the ALU is functioning and it can be changed to follow any order
