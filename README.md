@@ -26,3 +26,7 @@
     -  Handling the race condition
 
   -  Non Blocking Assignment used in terms of the structured procedure assignments in addition to the behavioral modeling
+
+**Notes for 3 Stage Sequential Circuit for Avg**
+  -  This design is implementing a 3 stage pipeline to calculate AVG of the 3 input stream values
+  -  The circuit is a sequential circuit hence the timing delays were taken into account
