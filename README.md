@@ -30,3 +30,7 @@
 **Notes for 3 Stage Sequential Circuit for Avg**
   -  This design is implementing a 3 stage pipeline to calculate AVG of the 3 input stream values
   -  The circuit is a sequential circuit hence the timing delays were taken into account
+
+**Notes for 3 Stage Sequential Circuit for Avg**
+  -  This design is also based on behavioral design with the additional use of structured procedure statements such as "initial" and "always".
+  -  It works on 4 modes which are selected depending on the input value
