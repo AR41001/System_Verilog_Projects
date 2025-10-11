@@ -15,5 +15,14 @@
 
 **Notes for 32-Bit ALU**
   -  This design is also based on behavioral design with the additional use of structured procedure statements such as "initial" and "always".
-  -  In addition to this, the procedural assignments were understood such as blocking and non-blocking assignments ( used in another project ).
+  -  In addition to this, the procedural assignments were understood such as blocking and non-blocking assignments ( used in the DFF ).
   -  The opcode truth table is present in the folder to understand how the ALU is functioning and it can be changed to follow any order
+
+**Notes for Neg Edge Triggered DFF**
+  -  The DFF has the following properties:
+    -  Negative Edge Triggered with clock enable
+    -  Active Low Asynchronous set and reset
+    -  Active high and low outputs present
+    -  Handling the race condition
+
+  -  Non Blocking Assignment used in terms of the structured procedure assignments in addition to the behavioral modeling
