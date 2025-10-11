@@ -13,7 +13,7 @@
   -  This design is based on behavioral design, this doesnt it mean that it cannot be hierarchical.
   -  The difference from the 8-Bit RCA project is the difference of design as that was gate level modelling and this is behavioral
 
-**32-Bit ALU**
+**Notes for 32-Bit ALU**
   -  This design is also based on behavioral design with the additional use of structured procedure statements such as "initial" and "always".
   -  In addition to this, the procedural assignments were understood such as blocking and non-blocking assignments ( used in another project ).
   -  The opcode truth table is present in the folder to understand how the ALU is functioning and it can be changed to follow any order
