@@ -44,6 +44,7 @@
   -  You can provide coins of either Rs. 10/- or Rs. 5/-, hence the input “COIN” can either be 5 or 10.
   -  The Machine returns back the change and it is demonstrated through a 1-bit “CHANGE” output signal.
   -  The Machine resets after a can has been dispensed.
+
 **Notes for 4KB Memory**
   -  The first technique used for this project was the use of #PARAMETER which is similar to parameters in normal coding. Its a default constant value defined at the start of the design to make it more adaptable to change if needed.
   -  The design code is generic, the specific details for the memory was given in the testbench. For a 4096 size memory the mem_width => which is the size of data stored in one place of memory = 8 bits. The addr_width is 9 => used to address to all the locations of the memory. 2^9 = 512 | 512 x 8 ( mem_width) = 4096 ( memory size )
