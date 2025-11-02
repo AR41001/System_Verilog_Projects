@@ -55,3 +55,10 @@
   -  The same 4KB memory is used
   -  Data is read from "stimulus.txt"
   -  That read data is then written to "test_results.txt", the written data is basically a comparison but can be changed to any notation one wants
+
+**Notes for 8 bit ALU - using Struct and generate**
+  -  This project was a practice to use "structs" and "generate" of systemverilog
+  -  Initially a 1-bit ALU was made which could perform simply 4 operations : AND, OR, ADD, SUB
+  -  That 1-bit ALU was instantiated in the design using generate 8 times to make it an 8-bit ALU
+  -  A file names "alu_pkg.sv" was made which had an enum block for all the opcodes and a struct for the operands. This file was imported in the design file to use its objects
+  -  The testbench tests a few scenarios successfully
