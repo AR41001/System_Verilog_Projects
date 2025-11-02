@@ -50,3 +50,8 @@
   -  The design code is generic, the specific details for the memory was given in the testbench. For a 4096 size memory the mem_width => which is the size of data stored in one place of memory = 8 bits. The addr_width is 9 => used to address to all the locations of the memory. 2^9 = 512 | 512 x 8 ( mem_width) = 4096 ( memory size )
   -  The project works in a way that initially "zeros" are written to all the locations of the memory and then it is read
   -  After that, the memory address of each location is written on it and eventually read.
+
+**Notes for reading data from file to memory**
+  -  The same 4KB memory is used
+  -  Data is read from "stimulus.txt"
+  -  That read data is then written to "test_results.txt", the written data is basically a comparison but can be changed to any notation one wants
