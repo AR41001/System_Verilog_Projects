@@ -1,0 +1,19 @@
+--- Writing data from file to memory ---
+Wrote to addr=0: A (ASCII=65)
+Wrote to addr=1: B (ASCII=66)
+Wrote to addr=2: D (ASCII=68)
+Wrote to addr=3: U (ASCII=85)
+Wrote to addr=4: L (ASCII=76)
+Wrote to addr=5: L (ASCII=76)
+Wrote to addr=6: A (ASCII=65)
+Wrote to addr=7: H (ASCII=72)
+
+--- Reading back and comparing ---
+PASS: addr=0 data=A (ASCII=65)
+PASS: addr=1 data=B (ASCII=66)
+PASS: addr=2 data=D (ASCII=68)
+PASS: addr=3 data=U (ASCII=85)
+PASS: addr=4 data=L (ASCII=76)
+PASS: addr=5 data=L (ASCII=76)
+PASS: addr=6 data=A (ASCII=65)
+PASS: addr=7 data=H (ASCII=72)
