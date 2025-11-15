@@ -62,3 +62,10 @@
   -  That 1-bit ALU was instantiated in the design using generate 8 times to make it an 8-bit ALU
   -  A file names "alu_pkg.sv" was made which had an enum block for all the opcodes and a struct for the operands. This file was imported in the design file to use its objects
   -  The testbench tests a few scenarios successfully
+
+**Notes for Decade Counter on FPGA**
+  -  This project was designed on Xilinx Vivado and implemented on BASYS 3 FPGA
+  -  Its simply a counter which counts from 0 to 9 and if it counts further, reset occurs and the counter starts from 0 again
+  -  The internal clock of the FPGA was not used since it works on 100MHz which is too fast to observe the lights behavior with a naked eye, hence the SW1 switch was manually used as a clk input
+  -  To achieve this the clock was disabled in the constraints file using the following line "set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]"
+  -  Ideally for a design the internal clock is used with a divide logic
